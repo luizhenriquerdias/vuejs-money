@@ -1,0 +1,24 @@
+{
+  "name": "vuejs-money",
+  "version": "1.0.0",
+  "description": "Máscara (diretiva) para VueJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizhenriquerdias/v-money.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "money",
+    "mask",
+    "mascara",
+    "dinheiro"
+  ],
+  "author": "Luiz Henrique Rezende Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizhenriquerdias/v-money/issues"
+  },
+  "homepage": "https://github.com/luizhenriquerdias/v-money"
+}
