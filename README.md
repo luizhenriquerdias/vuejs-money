@@ -9,14 +9,10 @@
 ### Instalação
 
 
-Faça download e cole dentro do seu projeto (aceito ajuda para adicionar ao npm)
-
-
 ```js
-import money from  './<caminho-relativo>/v-money'
+npm install vuejs-money --save
 
-// Registre a diretiva v-money
-
+import money from  'vuejs-money'
 Vue.use(money)
 ```
 
