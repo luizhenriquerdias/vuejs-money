@@ -1,8 +1,8 @@
 {
   "name": "vuejs-money",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Máscara (diretiva) para VueJS",
-  "main": "index.js",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luizhenriquerdias/v-money.git"
