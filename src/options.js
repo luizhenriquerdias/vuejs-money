@@ -1,6 +1,6 @@
 export default {
-  prefix: 'R$ ',
-  thousands: '.',
-  decimal: ',',
-  precision: 2
+	prefix: 'R$ ',
+	thousands: '.',
+	decimal: ',',
+	precision: 2
 };

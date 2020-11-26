@@ -1,6 +1,6 @@
 {
   "name": "vuejs-money",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mask (directive) for VueJS",
   "main": "src/index.js",
   "files": [
