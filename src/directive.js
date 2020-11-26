@@ -23,10 +23,22 @@ function getInput(el) {
 
 function getConfig(binding) {
   const config = opt;
-  if (binding.value && binding.value.precision) {
-    const precision = binding.value.precision;
-    if (typeof precision === 'number' && precision > 0 && precision < 6 && precision === parseInt(precision, 10))
-      config.precision = precision;
+  if (binding.value) {
+    const { value } = binding;
+    if (value.precision) {
+      const precision = value.precision;
+      if (typeof precision === 'number' && precision > 0 && precision < 6 && precision === parseInt(precision, 10))
+        config.precision = precision;
+    }
+
+    if (value.prefix && typeof value.prefix === 'string')
+      config.prefix = value.prefix;
+
+    if (value.thousands && typeof value.thousands === 'string')
+      config.thousands = value.thousands;
+
+    if (value.decimal && typeof value.decimal === 'string')
+      config.decimal = value.decimal;
   }
   return config;
 }
